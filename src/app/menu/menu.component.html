@@ -1,0 +1,44 @@
+<nav class="navegador">
+  <div class="container d-flex flex-column">
+    <a routerLink="/" class="inicio">Home</a>
+    <button (click)="openMenu()">Menú</button>
+    <ul *ngIf="this.showMenu" class="dropdown-options">
+      <li>
+        <a
+          (click)="('Analgesicos')"
+          routerLink="/prod/Analgesicos"
+          >Analgesicos</a
+        >
+      </li>
+      <li>
+        <a
+          (click)="('Antibioticos')"
+          routerLink="/prod/Antibioticos"
+          >Antibioticos</a
+        >
+      </li>
+      <li>
+        <a
+          (click)="('Antihistaminicos')"
+          routerLink="/prod/Antihistaminicos"
+          >Antihistaminicos</a
+        >
+      </li>
+      <li>
+        <a
+          (click)="('Antihipertensivos')"
+          routerLink="/prod/Antihipertensivos"
+          >Antihipertensivos</a
+        >
+      </li>
+    </ul>
+  </div>
+
+  <div class="position-carrito">
+    <img
+      src="../../assets/icons/carrito-de-compras.png"
+      alt="carrito carrito-de-compras"
+    />
+    <a routerLink="/carrito" class="carrito">Carrito</a>
+  </div>
+</nav>

@@ -1,0 +1,99 @@
+[
+    {
+        "id": 1,
+        "titulo": "Analgésicos",
+        "descripcion": "",
+        "precio": 1,
+        "imagen": "./actron600.jpg",
+        "tipo": "Analgésicos"
+    },
+    {
+        "id": 2,
+        "titulo": "Analgésicos",
+        "descripcion": "",
+        "precio": "2,500",
+        "imagen": "./paracetamol.jpg",
+        "tipo": "opcion 1 "
+    },
+    {
+        "id": 3,
+        "titulo": "Analgésicos",
+        "descripcion": "",
+        "precio": "999",
+        "imagen": "./aspirina.jpg",
+        "categoria": "opcion 1 "
+    },
+    {
+        "id": 4,
+        "titulo": "Antibióticos",
+        "descripcion": "",
+        "precio": 1,
+        "imagen": "./amoxicilina.jpg",
+        "categoria": "opcion 2"
+    },
+    {
+        "id": 5,
+        "titulo": "Antibióticos",
+        "descripcion": "",
+        "precio": 1,
+        "imagen": "./azitromizina.jpg",
+        "categoria": "opcion 2"
+    },
+    {
+        "id": 6,
+        "titulo": "Antibióticos",
+        "descripcion": "",
+        "precio": 1,
+        "imagen": "./ciprofloxacino.jpg",
+        "categoria": "opcion 2"
+    },
+    {
+        "id": 7,
+        "titulo": "Antihipertensivos",
+        "descripcion": "",
+        "precio": 1,
+        "imagen": "./losartan.jpg",
+        "categoria": "opcion 3"
+    },
+    {
+        "id": 8,
+        "titulo": "Antihipertensivos",
+        "descripcion": "",
+        "precio": 1,
+        "imagen": "./enalapril.jpg",
+        "categoria": "opcion 3"
+    },
+    {
+        "id": 9,
+        "titulo": "Antihipertensivos",
+        "descripcion": "",
+        "precio": 1,
+        "imagen": "./amoldipina.jpg",
+        "categoria": "opcion 3"
+    },
+    
+    {
+        "id":10 ,
+        "titulo": "Antihistamínicos",
+        "descripcion": "",
+        "precio": 1,
+        "imagen": "./loratadina.jpg",
+        "categoria": "opcion 4"
+    },
+    {
+        "id": 11,
+        "titulo": "Antihistamínicos",
+        "descripcion": "",
+        "precio": 1,
+        "imagen": "./cetirizina.jpg",
+        "categoria": "opcion 4"
+    },
+    {
+        "id": 12,
+        "titulo": "Antihistamínicos",
+        "descripcion": "",
+        "precio": 1,
+        "imagen": "./desloratadina.jpg",
+        "categoria": "opcion 4"
+    }
+]

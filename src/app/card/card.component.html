@@ -1,0 +1,25 @@
+<div class="card">
+  <div>
+    <div class="imagen-producto">
+      <img
+        class="imagen"
+        src="{{ tarjeta.imagen }}"
+        alt="Imagen del producto"
+      />
+    </div>
+
+    <div class="card-body">
+      <h2>{{ tarjeta.titulo }}</h2>
+      <button (click)="verDetalle()">Ver detalles</button>
+      <span class="precio">{{ tarjeta.precio }}</span>
+      <div class="button">
+        <img
+          src="../../assets/icons/carrito-de-compras.png"
+          alt="carrito"
+          style="margin-right: 25px"
+        />
+        <button (click)="agregarAlCarro(tarjeta)">Agregar al carrito</button>
+      </div>
+    </div>
+  </div>
+</div>

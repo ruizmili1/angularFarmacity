@@ -1,0 +1,9 @@
+<div class="carrito-container">
+  <h1>Carrito</h1>
+  <div *ngIf="productoSeleccionado">
+    <h1>{{ productoSeleccionado.nombre }}</h1>
+    <p>{{ productoSeleccionado.precio }}</p>
+    <img src="{{ productoSeleccionado.imagen }}" />
+  </div>
+</div>
+

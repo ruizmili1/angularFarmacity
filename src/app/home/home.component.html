@@ -1,0 +1,8 @@
+<div class="separacion">
+  <h1 class="home">¡Bienvenidos a nuestra tienda!</h1>
+  <div class="catalogo">
+    <div *ngFor="let tarjeta of tarjetas">
+      <app-card style="margin: 50px" [tarjeta]="tarjeta"></app-card>
+    </div>
+  </div>
+</div>

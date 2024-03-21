@@ -1,0 +1,6 @@
+<div class="catalogo-productos">
+  <div *ngFor="let elementos of productos">
+    <div *ngIf="tipo == elementos.tipo"></div>
+    <app-card style="margin: 50px" [tarjeta]="elementos"></app-card>
+  </div>
+</div>
